@@ -1,0 +1,40 @@
+/* ===== Navbar ===== */
+#nav h2{
+    text-transform: uppercase;
+}
+
+.list{
+    position: relative;
+    left: 12%;
+}
+.list i{
+    padding: 15px;
+    font-size: 15px;
+    box-shadow: 1px 1px 10px black;
+    box-sizing: border-box;
+}
+
+.list ul{
+    display: flex;
+    list-style: none;
+}
+
+.list ul li{
+    margin: 10px;
+}
+
+.list ul li a{
+    text-decoration: none;
+}
+
+/* =========== Contacts ========= */
+#contacts b{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+}
+
+#contacts i{
+    font-size: 25px;
+    margin: 3px;
+}
