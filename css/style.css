@@ -1,4 +1,4 @@
-/* ===== Navbar ===== */
+/* ===== Title and Navbar ===== */
 #nav h2{
     text-transform: uppercase;
 }
@@ -8,10 +8,20 @@
     left: 12%;
 }
 .list i{
-    padding: 15px;
+    padding: 5px 5px;
     font-size: 15px;
-    box-shadow: 1px 1px 10px black;
+    /* box-shadow: 1px 1px 10px black; */
     box-sizing: border-box;
+}
+
+.list span{
+    display: none;
+}
+
+.list a:hover span{
+    display:inline-block;
+    transition: all 3s ease;
+    color: white;
 }
 
 .list ul{
@@ -21,11 +31,28 @@
 
 .list ul li{
     margin: 10px;
+    padding: 5px 10px;
 }
 
 .list ul li a{
     text-decoration: none;
 }
+/* ===== About ===== */
+#about h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
+/* ===== Portfolio ===== */
+#portfolio h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
 
 /* =========== Contacts ========= */
 #contacts b{
